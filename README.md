@@ -36,3 +36,42 @@ Applications
 - Constraint satisfaction problems
 - Puzzle solving
 - AI search problems
+
+
+Subsets (Power Set)
+===================
+
+Problem Description
+-------------------
+Given a list of distinct integers, generate all possible
+subsets (the power set).
+
+Each element can either be included or excluded.
+
+Approach
+--------
+Backtracking is used to build subsets incrementally.
+At each step:
+- Add current subset to result
+- Try including remaining elements one by one
+- Backtrack after exploring each possibility
+
+Key Concepts
+------------
+- Recursion
+- Decision tree exploration
+- Include / Exclude pattern
+
+Time Complexity
+---------------
+O(2^n)
+
+Space Complexity
+----------------
+O(n)
+
+Applications
+------------
+- Combination generation
+- Feature selection
+- Search space exploration
