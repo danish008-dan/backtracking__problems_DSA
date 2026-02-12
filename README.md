@@ -74,4 +74,49 @@ Applications
 ------------
 - Combination generation
 - Feature selection
-- Search space exploration
+- Search space explorati
+-
+-Backtracking Problems – Permutations and Rat in a Maze
+=======================================================
+
+1. Permutations
+---------------
+
+Problem:
+Generate all possible arrangements of elements.
+
+Approach:
+Use backtracking with a boolean array to track
+used elements. Choose → Explore → Undo.
+
+Time Complexity:
+O(n!)
+
+Applications:
+- Arrangement generation
+- Scheduling problems
+- Brute force search
+
+
+2. Rat in a Maze
+----------------
+
+Problem:
+Find a path in a binary maze from source to destination.
+
+Approach:
+Use backtracking to explore valid paths and mark
+visited cells. If a path fails, backtrack and try
+another direction.
+
+Time Complexity:
+O(2^(n^2)) worst case
+
+Applications:
+- Path finding
+- Constraint solving
+- AI search algorithms
+
+-
+-
+- on
