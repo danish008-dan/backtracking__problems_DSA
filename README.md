@@ -120,3 +120,38 @@ Applications:
 -
 -
 - on
+Sudoku Solver (Backtracking)
+============================
+
+Problem Description
+-------------------
+Solve a 9x9 Sudoku puzzle such that:
+- Each row contains digits 1–9 exactly once.
+- Each column contains digits 1–9 exactly once.
+- Each 3x3 subgrid contains digits 1–9 exactly once.
+
+Approach
+--------
+Backtracking is used to:
+1. Find an empty cell.
+2. Try digits 1–9.
+3. Check if placement is valid.
+4. Recursively solve the remaining board.
+5. Undo the move if it leads to a dead end.
+
+Key Concepts
+------------
+- Constraint satisfaction
+- Recursive search
+- State backtracking
+- Pruning invalid states
+
+Time Complexity
+---------------
+Worst case: O(9^(n*n))
+
+Applications
+------------
+- Puzzle solvers
+- AI search algorithms
+- Constraint-based systems
